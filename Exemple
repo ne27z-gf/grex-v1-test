@@ -8,7 +8,7 @@ getgenv().luaguardvars = {
 	DiscordName = "ne27z",
 }
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/drillygzzly/Other/main/1"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ne27z-gf/grex-v1-test/refs/heads/main/Sources"))()
 
 library:init() -- Initalizes Library Do Not Delete This
 
