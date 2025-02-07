@@ -1,7 +1,7 @@
 --[[
 Octohook ui lib informant version
-Developed by liam#4567
-Edited by xz#1111
+Developed by ne27z
+Edited by ne27z
 ]]
 
 -- // Load
@@ -2896,7 +2896,7 @@ function library:init()
                     for i,v in next, data do
                         if not table.find(blacklist, i) and (slider[i] ~= nil and typeof(slider[i]) == typeof(v)) then
                             slider[i] = v;
-                        end
+                        end 
                     end
                     
                     table.insert(self.options, slider)
